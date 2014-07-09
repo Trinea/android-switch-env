@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SwitchEnv</string>
+    <string name="switching">Switching</string>
+    <string name="init">initing</string>
+    <string name="switch_test_env">Switch To Test Env</string>
+    <string name="switch_online_env">Switch To Online Env</string>
+    <string name="test_env">Current is test env</string>
+    <string name="online_env">Current is online env</string>
+    <string name="error_no_root">No Root Permission</string>
+    <string name="error_get_hoss">Get Hosts Exception: </string>
+    <string name="hosts_contents">----Content of /etc/hosts:----</string>
+    <string name="null_hosts">file is empty</string>
+    <string name="error_set_hoss">Set Hosts Fail, Need to open root permission in Security Manager or use superuser app</string>
+    <string name="clear_data">Clear Cache</string>
+    <string name="clear_and_open_data">Clear Cache And Open</string>
+    <string name="error_package_not_null">Package can not be null</string>
+    <string name="open_app_fail">Open App Fail, Please ensure the app is installed</string>
+    <string name="clear_data_ing">Clearing</string>
+    <string name="clear_data_fail">Clear app cache fail</string>
+    <string name="clear_data_success">Clear app cache success</string>
+    <string name="package_name">Choice App:</string>
+    <string name="clear_data_tip">----Open App----</string>
+
+</resources>

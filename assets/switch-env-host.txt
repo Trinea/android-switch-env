@@ -1,0 +1,3 @@
+## you can added host
+www.trinea.cn 42.121.4.189
+api.trinea.cn 42.121.4.189

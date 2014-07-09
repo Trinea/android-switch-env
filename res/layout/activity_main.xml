@@ -1,0 +1,80 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/dp_16" >
+
+        <Button
+            android:id="@+id/switch_env"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/switch_test_env" />
+
+        <TextView
+            android:id="@+id/text_hosts_tips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/switch_env"
+            android:layout_marginTop="@dimen/dp_16"
+            android:text="@string/hosts_contents"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_hosts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_hosts_tips"
+            android:layout_marginLeft="@dimen/dp_24" />
+
+        <TextView
+            android:id="@+id/text_package_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_hosts"
+            android:layout_marginTop="@dimen/dp_16"
+            android:gravity="center_vertical"
+            android:text="@string/clear_data_tip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_package_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/spinner_package"
+            android:layout_alignTop="@id/spinner_package"
+            android:layout_below="@id/text_package_tip"
+            android:gravity="center_vertical"
+            android:text="@string/package_name" />
+
+        <Spinner
+            android:id="@+id/spinner_package"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/spinner_height"
+            android:layout_alignRight="@+id/button_clear_data_and_open"
+            android:layout_below="@id/text_package_tip"
+            android:layout_toRightOf="@id/text_package_name" />
+
+        <Button
+            android:id="@+id/button_clear_data"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_height"
+            android:layout_below="@id/spinner_package"
+            android:layout_toLeftOf="@+id/button_clear_data_and_open"
+            android:text="@string/clear_data" />
+
+        <Button
+            android:id="@+id/button_clear_data_and_open"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_height"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/spinner_package"
+            android:layout_marginRight="@dimen/dp_16"
+            android:text="@string/clear_and_open_data" />
+    </RelativeLayout>
+
+</ScrollView>

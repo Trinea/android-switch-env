@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">環境切換</string>
+    <string name="init">初始化中</string>
+    <string name="switching">切換中</string>
+    <string name="switch_test_env">切換到測試環境</string>
+    <string name="switch_online_env">切換到線上環境</string>
+    <string name="test_env">當前爲測試環境</string>
+    <string name="online_env">當前爲線上環境</string>
+    <string name="error_no_root">沒有root權限</string>
+    <string name="error_get_hoss">讀取hosts文件異常</string>
+    <string name="hosts_contents">----/etc/hosts文件內容----</string>
+    <string name="null_hosts">內容爲空</string>
+    <string name="error_set_hoss">寫入hosts文件失敗，需要root權限，請在 安全中心-授權管理-root授權管理 打開root授權或使用超級用戶等應用解決</string>
+    <string name="clear_data">清除緩存</string>
+    <string name="clear_and_open_data">清除緩存並打開</string>
+    <string name="open_app_fail">打開應用失敗</string>
+    <string name="error_package_not_null">包名不能爲空</string>
+    <string name="clear_data_ing">清除中…</string>
+    <string name="clear_data_fail">清除應用緩存失敗，需要root權限，請在 安全中心-授權管理-root授權管理 打開root授權或使用超級用戶等應用解決</string>
+    <string name="clear_data_success">清除應用緩存成功</string>
+    <string name="package_name">選擇應用:</string>
+    <string name="clear_data_tip">----打開應用----</string>
+
+</resources>

@@ -1,0 +1,4 @@
+## app list be showed in spinner, add like below
+## packageName appName
+cn.trinea.android.demo TrineaAndroidDemo
+com.qq QQ
