@@ -9,6 +9,7 @@ Android 开发测试环境切换工具
 这个项目的主要功能是修改 Host 文件，从而达到将对线上环境的访问全部指向到测试环境的目的  
 `PS：手机必须开启了 Root 权限`  
 
+![screenshot](screenshot.png)  
 ### 2. 如何设置
 在 SD 卡根目录下 Trinea 文件夹内新建文件 switch-env-host.txt，内容为测试环境和开发环境对应的 Host  
 在 SD 卡根目录下 Trinea 文件夹内新建文件 switch-env-app-info.txt，内容为 App 信息，每行信息为包名 空格 应用名  
