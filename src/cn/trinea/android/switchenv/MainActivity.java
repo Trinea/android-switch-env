@@ -133,7 +133,7 @@ public class MainActivity extends Activity implements OnClickListener {
         for (int i = 0; i < appList.size(); i++) {
             App app = appList.get(i);
             if (app != null && !StringUtils.isEmpty(app.getAppName()) && !StringUtils.isEmpty(app.getPackageName())) {
-                dataArray[i] = app.getPackageName() + "(" + app.getAppName() + ")";
+                dataArray[i] = app.getAppName() + "(" + app.getPackageName() + ")";
             }
         }
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item,
